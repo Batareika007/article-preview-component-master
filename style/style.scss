@@ -1,0 +1,31 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+}
+
+.container {
+    max-width: 731px;
+    max-height: 280px;
+    margin: 140px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.picture-side {
+    flex-basis: 286px;
+    overflow: hidden;
+}
+
+.text-side {
+    flex: 0 1 auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.user-content {
+    display: flex;
+    flex-direction: row;
+}

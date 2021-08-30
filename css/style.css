@@ -1,0 +1,42 @@
+body {
+  background-color: #ecf2f8;
+  font-size: 13px;
+}
+
+.container {
+  max-width: 731px;
+  max-height: 280px;
+  margin: 140px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.picture-side {
+  -ms-flex-preferred-size: 286px;
+      flex-basis: 286px;
+  overflow: hidden;
+}
+
+.text-side {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  background-color: white;
+}
+
+.user-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
