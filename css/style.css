@@ -1,8 +1,9 @@
 @charset "UTF-8";
 body {
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-family: 'Manrope', sans-serif;
   line-height: 1.5rem;
+  background-color: #ecf2f8;
 }
 
 h1,
@@ -11,21 +12,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 3rem;
-  line-height: 3rem;
-  font-weight: 500;
-}
-
-@media screen and (max-width: 425px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
 }
 
 .grid {
@@ -94,27 +83,44 @@ span {
 
 /* container max width -------------------  */
 .container {
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
   max-width: 1160px;
 }
 
-.header {
-  margin: 0 auto;
-  background-color: blue;
+.main-section {
+  margin-top: 20%;
+  border-radius: 8px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #fff;
 }
 
-/* main -------------------  */
-.main {
-  margin: 0 auto;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+.image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  background-image: url(../images/drawers.jpg);
+  min-height: 100%;
 }
 
-/* footer -------------------  */
-.footer {
-  margin: 0 auto;
-  background-color: red;
+.content {
+  padding: 50px;
+}
+
+.content h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.content p {
+  line-height: 1.3rem;
 }
