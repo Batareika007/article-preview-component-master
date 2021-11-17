@@ -113,6 +113,13 @@ span {
   background-image: url(../images/drawers.jpg);
   background-position: 25% 75%;
   background-size: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+@media screen and (max-width: 425px) {
+  .image {
+    border-radius: 0;
+  }
 }
 
 .content {
@@ -127,11 +134,27 @@ span {
   color: #48556a;
 }
 
+@media screen and (max-width: 425px) {
+  .content h1 {
+    margin: 32px;
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+
 .content p {
   margin: 0;
   margin-bottom: 24px;
   line-height: 1.3rem;
   color: #6d7f97;
+}
+
+@media screen and (max-width: 425px) {
+  .content p {
+    margin: 32px;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -157,6 +180,12 @@ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-content {
+    margin: 0 0 15px 32px;
+  }
 }
 
 .footer__img {
