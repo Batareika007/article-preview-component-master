@@ -220,6 +220,14 @@ span {
   background-color: #ecf2f8;
 }
 
+.footer-link-active {
+  background-color: #9eafc2;
+}
+
+.footer-link-active a img {
+  fill: white;
+}
+
 .footer-button {
   z-index: 300;
   position: relative;

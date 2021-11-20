@@ -193,6 +193,16 @@ span {
     background-color: hsl(210, 46%, 95%);
 }
 
+.footer-link-active {
+    background-color: hsl(212, 23%, 69%);
+
+    a {
+        img {
+            fill: white;
+        }
+    }
+}
+
 .footer-button {
     z-index: 300;
     position: relative;

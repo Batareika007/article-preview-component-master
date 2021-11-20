@@ -1,9 +1,7 @@
-
-
-var clickButton = document.getElementsByClassName('footer-link');
-console.log(clickButton[0]);
-    document.querySelector(".links").ClassList.remove(".display-none");
-// clickButton.addEventListener("click", function(){
-//     // document.getElementsByClassName('.links').ClassList.toggle('.display-none');
-//     console.log("button clicked");
-// });
+var clickButton = document.querySelector(".footer-link");
+var flowLinks = document.querySelector(".links");
+clickButton.addEventListener("click", function () {
+    flowLinks.classList.toggle("display-none");
+    document.querySelector(".footer-link").classList.toggle("footer-link-active");
+    console.log("button clicked");
+});
