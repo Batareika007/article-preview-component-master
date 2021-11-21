@@ -218,6 +218,8 @@ span {
   height: 32px;
   border-radius: 100%;
   background-color: #ecf2f8;
+  border: none;
+  cursor: pointer;
 }
 
 .footer-link-active {
