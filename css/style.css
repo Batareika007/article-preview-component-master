@@ -240,13 +240,16 @@ span {
   background-color: #6d7f97;
 }
 
-.footer-link-active a img {
+.footer-link-active svg path {
   fill: white;
 }
 
 .footer-button {
   z-index: 300;
   position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 @media screen and (max-width: 425px) {

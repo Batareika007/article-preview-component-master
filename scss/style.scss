@@ -140,16 +140,13 @@ span {
         // padding: 40px 32px 20px;
         padding: 0;
     }
-
-    @media screen and (max-width:375px) {}
-
-    @media screen and (max-width:320px) {}
 }
 
 .footer {
     position: relative;
     display: flex;
     justify-content: space-between;
+    // border: 1px solid black;
 }
 
 .footer-content {
@@ -200,23 +197,26 @@ span {
     border: none;
     cursor: pointer;
 
+
 }
 
 .footer-link-active {
-    // background-color: hsl(212, 23%, 69%);
+    // content: url(../images/icon-share-white.svg);
     background-color: hsl(214, 17%, 51%);
 
-    a {
-        img {
+    svg {
+        path {
+
             fill: white;
         }
     }
+
 }
 
 .footer-button {
     z-index: 300;
     position: relative;
-
+    align-self: center;
 
     @media screen and (max-width:425px) {
 
