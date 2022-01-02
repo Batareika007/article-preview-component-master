@@ -106,14 +106,15 @@ span {
 }
 
 .content {
-    padding: 40px 30px;
+    padding: 40px 40px;
 
     h1 {
         margin: 0;
         margin-bottom: 16px;
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
         color: hsl(217, 19%, 35%);
+
 
         @media screen and (max-width:425px) {
             margin: 32px;
@@ -153,7 +154,7 @@ span {
 
 .footer-content {
     display: flex;
-    align-items: center;
+    align-items: stretch;
 
     @media screen and (max-width:425px) {
 
@@ -162,18 +163,23 @@ span {
 }
 
 .footer__img {
+    flex: 1 0 48px;
     border-radius: 100%;
     overflow: hidden;
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
     margin-right: 16px;
 
     img {
-        width: 100%;
+        min-width: 100%;
+        height: 100%;
     }
 }
 
 .footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     line-height: 1.1rem;
 }
 

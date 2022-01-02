@@ -15,12 +15,6 @@ clickButton.addEventListener("click", function () {
         //     document.getElementById("share-icon-on-click").src = "images/icon-share.svg";
         //     console.log("change to regular")
         // }
-        if (document.querySelector(".changeonclick").src == "images/icon-share.svg") {
-            document.querySelector(".changeonclick").src = "images/icon-share-white.svg";
-            console.log("change to white")
-        } else {
-            document.querySelector(".changeonclick").src = "images/icon-share.svg";
-            console.log("change to regular")
-        }
+      
     }
 });
